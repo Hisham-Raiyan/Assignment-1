@@ -47,7 +47,6 @@ body, button {
   #btn-primary{
     background-color: #0D1321;
     color: #FFFFFF;
-    /* border: none; */
     padding: 21px 24px;
     border-radius: 8px;
     font-weight: 600;
@@ -86,7 +85,14 @@ body, button {
 
   .reason-part{
     display: flex;
+    justify-content: space-between;
+    row-gap: 32px;
+  }
+
+  .side{
+    display: flex;
     flex-direction: column;
+    width: 447px;
   }
 
   #one{
