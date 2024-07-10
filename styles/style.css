@@ -263,3 +263,17 @@ body, button {
   .supp-title p{
     color:#FFFFFF;
   }
+
+  .contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+    background-color: #0D132108;
+    border-radius: 16px;
+    margin-top: 32px;
+  }
+
+  .contact-link{
+    display: flex;
+    gap: 24px;
+  }
