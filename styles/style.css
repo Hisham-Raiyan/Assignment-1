@@ -69,6 +69,7 @@ body, button {
     align-items: center;
     text-align: center;
     gap: 26px;
+    margin-bottom: 48px;
   }
 
   .title h3{
@@ -86,13 +87,28 @@ body, button {
   .reason-part{
     display: flex;
     justify-content: space-between;
-    row-gap: 32px;
+    padding: 48px 48px;
+    margin-bottom: 32px;
   }
 
   .side{
     display: flex;
     flex-direction: column;
     width: 447px;
+  }
+
+  .side h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #0d1321b3
+  }
+
+  .side p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    color: #0d1321b3
   }
 
   #one{
@@ -103,4 +119,20 @@ body, button {
   .two {
     height: 240px;
     width: 240px;
+  }
+
+  .size{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .reason-btn{
+    font-size: 20px;
+    font-weight: 500;
+    height: 47px;
+    width: 174px;
+    text-align: justify;
+    padding: 12px 20px;
+    color: #0d1321b3
   }
