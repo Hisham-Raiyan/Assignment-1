@@ -142,3 +142,14 @@ body, button {
     color: #0d1321b3;
     border: 1px solid;
   }
+
+  .video{
+    /* align-items: center; */
+    border: 1px solid #0d132133;
+    border-radius: 16px;
+    padding: 32px 32px;
+  }
+
+  iframe{
+    border-radius: 16px;
+  }
