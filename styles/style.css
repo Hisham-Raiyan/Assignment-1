@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body, button {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -9,7 +14,14 @@ body, button {
     font-size: 48px;
   }
 
-  .programmer {
+  .banner p {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 852px;
+    opacity: 70%;
+  }
+
+  #programmer {
     height: 240.28px;
     width: 240px;
   }
@@ -20,25 +32,22 @@ body, button {
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* position: 221px 157px; */
+    margin: 0 auto;
+    height: 581px;
+    width: 998px;
     gap: 32px;
   }
 
   .header{
-    /* height: 652px; */
-    /* width: 100%; */
     background-image: url('../assets/Hero-bg.png');
-    /* background-size: cover; */
-    background-size: contain;
-    /* background-position: 131px; */
-    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-position: top left, bottom right;
   }
 
-  .btn-primary{
+  #btn-primary{
     background-color: #0D1321;
     color: #FFFFFF;
-    border: none;
+    /* border: none; */
     padding: 21px 24px;
     border-radius: 8px;
     font-weight: 600;
