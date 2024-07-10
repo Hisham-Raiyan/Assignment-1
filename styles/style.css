@@ -112,7 +112,6 @@ body, button {
   .side p{
     font-size: 16px;
     font-weight: 400;
-    /* margin-bottom: 25px; */
     color: #0d1321b3
   }
 
@@ -144,12 +143,66 @@ body, button {
   }
 
   .video{
-    /* align-items: center; */
     border: 1px solid #0d132133;
     border-radius: 16px;
     padding: 32px 32px;
+    margin-bottom: 120px;
   }
 
   iframe{
     border-radius: 16px;
+  }
+
+  .flexing{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .front-end{
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    height: 219px;
+    padding: 40px 40px;
+    border-radius: 16px;
+    gap: 24px;
+  }
+
+  #html{
+    background-color: #ff4b1e0d;
+  }
+
+  #css{
+    background-color: #004de80d;
+  }
+
+  #js {
+    background-color: #ffdd000d;
+  }
+
+  .fe-icons{
+    height: 56px;
+    width: 56px;
+  }
+
+  h4{
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  .front-end p{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 70%;
+  }
+
+  .fe-links{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0D1321;
+  }
+
+  .target{
+    margin-bottom: 70px;
   }
