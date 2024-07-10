@@ -53,3 +53,48 @@ body, button {
     font-weight: 600;
     font-size: 20px;
   }
+
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .reason {
+    background-color: #0d132105;
+    padding: 80px 97px;
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 26px;
+  }
+
+  .title h3{
+    font-size: 32px;
+    font-weight: 800;
+  }
+
+  .title p{
+    font-size: 16;
+    font-weight: 400;
+    opacity: 70%;
+
+  }
+
+  .reason-part{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #one{
+    height: 240px;
+    width: 247.17px;
+  }
+
+  .two {
+    height: 240px;
+    width: 240px;
+  }
